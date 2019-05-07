@@ -37,6 +37,12 @@ func main() {
 
 	//for {           无限循环
 	//}
+
+	go running1()
+
+	// 接受命令行输入, 不做任何事情
+	var input string
+	fmt.Scanln(&input)
 }
 
 func calculateBill1(price int, num int) int {
